@@ -1,9 +1,6 @@
 package org.launchcode.caninecoach.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.JoinTable;
-import jakarta.persistence.ManyToMany;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import org.launchcode.caninecoach.entities.AbstractEntity;
 import org.launchcode.caninecoach.entities.Course;
@@ -46,14 +43,14 @@ public class Type extends AbstractEntity {
         this.courses =courses;
     }
 
-    @ManyToMany(mappedBy = "type")
-    private Collection<Course> courses2;
+    @OneToMany(mappedBy = "type")
+    private Collection<CourseInfo> courses2;
 
-    public Collection<Course> getCourses2() {
+    public Collection<CourseInfo> getCourses2() {
         return courses2;
     }
 
-    public void setCourses2(Collection<Course> courses2) {
+    public void setCourses2(Collection<CourseInfo> courses2) {
         this.courses2 = courses2;
     }
 }

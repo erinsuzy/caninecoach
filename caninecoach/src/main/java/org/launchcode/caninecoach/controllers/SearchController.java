@@ -20,9 +20,14 @@ public class SearchController {
         this.courseRepository = courseRepository;
     }
 
-    @GetMapping("/")
+    @GetMapping("")
     public List<Object[]> search(@RequestParam("query") String keyword) {
         return courseRepository.searchCoursesWithKeyword(keyword);
+    }
+
+    @GetMapping("")
+    public List<Object[]> findAll() {
+        return courseRepository.findAllCoursesWithDetails();
     }
 
 }

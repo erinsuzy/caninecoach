@@ -30,6 +30,23 @@ public class CourseService {
         return courseRepository.searchCoursesWithKeyword(keyword);
     }
 
+    public Course createCourse(Course course){
+        return courseRepository.save(course);
+    }
+
+    public Course updateCourse(Course course){
+        return courseRepository.save(course);
+    }
+
+    public Course deleteCourse(Course course){
+        courseRepository.delete(course);
+        return null;
+    }
+
+
+
+
+
 
 }
 

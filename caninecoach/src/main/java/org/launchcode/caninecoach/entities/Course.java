@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class Course extends AbstractEntity {
 
 
-
     @OneToOne(mappedBy = "course")
+    @JoinColumn(name = "course_id")
     private CourseInfo courseInfo;
 
 
@@ -24,12 +24,13 @@ public class Course extends AbstractEntity {
         this.courseInfo = courseInfo;
         this.curriculum = curriculum;
         this.name = name;
-
     }
+
 
     public Course() {
 
     }
+
 
     public CourseInfo getCourseInfo() {
         return courseInfo;
