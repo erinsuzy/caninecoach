@@ -2,6 +2,8 @@ package org.launchcode.caninecoach.entities;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+
 @Entity
 @Table(name = "course_info")
 public class CourseInfo extends AbstractEntity{
