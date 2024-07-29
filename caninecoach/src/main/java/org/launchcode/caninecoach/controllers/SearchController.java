@@ -20,7 +20,7 @@ public class SearchController {
         this.courseRepository = courseRepository;
     }
 
-    @GetMapping("")
+    @GetMapping("/query")
     public List<Object[]> search(@RequestParam("query") String keyword) {
         return courseRepository.searchCoursesWithKeyword(keyword);
     }

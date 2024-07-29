@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aae567a-ec78-4b37-b92c-02ac5c0b8736" name="Changes" comment="git ignore amended">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/controllers/CourseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_11_2024_11_08_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_11_2024_11_08_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/controllers/ClassroomController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/controllers/FavoriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/controllers/FavoriteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/controllers/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/controllers/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/dtos/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/dtos/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/entities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/entities/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/entities/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/entities/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/repositories/FavoriteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/repositories/FavoriteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/services/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/services/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/caninecoach/services/GoogleClassroomService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,23 +66,24 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="updateREADME" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "erinsuzy"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;erinsuzy&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/erinsuzy/caninecoach",
-    "accountId": "2873b814-306e-4751-b85c-df156cd4d763"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/erinsuzy/caninecoach&quot;,
+    &quot;accountId&quot;: &quot;2873b814-306e-4751-b85c-df156cd4d763&quot;
   }
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -107,35 +96,35 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.caninecoach [bootRun].executor": "Run",
-    "Gradle.caninecoach [build].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "newCRUD",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/erins/IdeaProjects/group-michael-2/caninecoach",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.caninecoach [bootRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.caninecoach [build].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;newCRUD&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/erins/IdeaProjects/group-michael-2/caninecoach&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.launchcode.caninecoach.entities" />
       <recent name="org.launchcode.caninecoach.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.caninecoach [build]">
+  <component name="RunManager" selected="Gradle.caninecoach [bootRun]">
     <configuration name="caninecoach [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -192,17 +181,14 @@
       <list>
         <item itemvalue="Gradle.caninecoach [build]" />
         <item itemvalue="Gradle.caninecoach [bootRun]" />
-        <item itemvalue="Gradle.caninecoach [build]" />
-        <item itemvalue="Gradle.caninecoach [bootRun]" />
-        <item itemvalue="Gradle.caninecoach [build]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -220,7 +206,8 @@
       <workItem from="1710368349888" duration="820000" />
       <workItem from="1711307602684" duration="192000" />
       <workItem from="1713114446871" duration="332000" />
-      <workItem from="1716745541153" duration="11472000" />
+      <workItem from="1716745541153" duration="11692000" />
+      <workItem from="1719079765793" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore amended">
       <option name="closed" value="true" />

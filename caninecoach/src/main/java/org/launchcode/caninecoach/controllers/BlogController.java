@@ -13,7 +13,7 @@ import java.util.List;
 
 
 
-@Controller
+/*@Controller
 @RequestMapping("blog")
 public class BlogController {
 
@@ -36,7 +36,6 @@ public class BlogController {
 
     @GetMapping("/formdata")
     public String displayCreateBlogForm(){
-        //template here?
         return "blog/create";
     }
 
@@ -52,3 +51,5 @@ public class BlogController {
     }
 
 }
+
+ */

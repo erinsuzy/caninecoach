@@ -1,6 +1,5 @@
 package org.launchcode.caninecoach.config;
 
-import org.launchcode.caninecoach.services.JwtTokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -13,8 +12,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.lang.NonNull;
 import java.io.IOException;
 
-@Component
-public class JwtAuthTokenFilter extends OncePerRequestFilter {
+//@Component
+/*public class JwtAuthTokenFilter extends OncePerRequestFilter {
 
     private final JwtTokenService jwtTokenService;
 
@@ -44,3 +43,4 @@ public class JwtAuthTokenFilter extends OncePerRequestFilter {
         return null;
     }
 }
+*/
