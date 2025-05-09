@@ -48,9 +48,9 @@ dependencies {
 	implementation 'com.google.oauth-client:google-oauth-client-jetty:1.35.0'
 
 	// JWT
-	implementation 'io.jsonwebtoken:jjwt-api:0.11.2'
-	implementation 'jakarta.servlet:jakarta.servlet-api:6.1.0-M1'
-	implementation 'com.auth0:java-jwt:4.3.0'
+	//implementation 'io.jsonwebtoken:jjwt-api:0.11.2'
+	//implementation 'jakarta.servlet:jakarta.servlet-api:6.1.0-M1'
+	//implementation 'com.auth0:java-jwt:4.3.0'
 
 	// Mail
 	implementation 'jakarta.mail:jakarta.mail-api:2.1.2'

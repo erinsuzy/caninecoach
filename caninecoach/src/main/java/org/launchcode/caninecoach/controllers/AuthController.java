@@ -4,7 +4,7 @@ import jakarta.servlet.http.HttpSession;
 import org.launchcode.caninecoach.dtos.LoginDto;
 import org.launchcode.caninecoach.dtos.SignupDto;
 import org.launchcode.caninecoach.dtos.UserDto;
-import org.launchcode.caninecoach.services.JwtTokenService;
+
 import org.launchcode.caninecoach.services.UserService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +17,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
 
-@RestController
+/*@RestController
 @RequestMapping("/api/auth")
 public class AuthController {
 
@@ -47,3 +47,4 @@ public class AuthController {
     }
 
 }
+ */

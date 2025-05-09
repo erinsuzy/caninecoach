@@ -1,5 +1,5 @@
 package org.launchcode.caninecoach.services;
-
+/*
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTVerificationException;
@@ -15,10 +15,12 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Service;
 import jakarta.servlet.http.HttpServletRequest;
 
+ */
+
 import java.util.Collections;
 import java.util.Date;
 
-@Service
+/*@Service
 public class JwtTokenService {
 
     @Value("${jwt.secret}")
@@ -71,3 +73,5 @@ public class JwtTokenService {
         return authenticationToken;
     }
 }
+
+ */
